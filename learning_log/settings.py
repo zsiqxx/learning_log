@@ -135,6 +135,7 @@ BOOTSTRAP3 = {
         'include_jquery':True,
         }
 
+
 # Heroku设置
 if os.getcwd() == '/app':
     import dj_database_url
@@ -154,3 +155,5 @@ if os.getcwd() == '/app':
     STATICFILES_DIRS = (
             os.path.join(BASE_DIR,'static'),
             )
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')

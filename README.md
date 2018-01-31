@@ -1,4 +1,4 @@
-# learning_logs
+# learning_log
 an example in "Python Crash Course"
 
 
